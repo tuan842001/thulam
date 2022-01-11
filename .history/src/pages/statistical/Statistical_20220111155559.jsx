@@ -30,11 +30,9 @@ export default function Statistical() {
       style={{
         backgroundColor: "#202124",
         color: "#FFFF",
-        borderRadius: "10px",
-        padding: "10px",
-        marginTop: "20px",
+        margin: "20px",
+        width: "560px",
       }}
-      className="TableContainer"
     >
       <TableCell style={{ color: "#FFFF", borderBottom: "none" }} align="right">
         Số bàn thắng

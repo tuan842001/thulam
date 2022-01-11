@@ -53,17 +53,13 @@ export default function UserList() {
       style={{
         backgroundColor: "#202124",
         color: "#FFFF",
+        margin: "20px",
+        width: "560px",
         borderRadius: "10px",
         padding: "10px",
       }}
-      className="TableContainer"
     >
-      <Table
-        sx={{ minWidth: 600 }}
-        size="small"
-        aria-label="a dense table"
-        className="TableSX"
-      >
+      <Table sx={{ minWidth: 550 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell style={{ color: "#9aa0a6" }}>Đội bóng</TableCell>

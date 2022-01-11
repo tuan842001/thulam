@@ -1,20 +1,11 @@
 .header {
     background: #3F1052;
     height: 100px;
-    width: 620px;
+    width: 600px;
     text-align: center;
     color: #fff;
     display: flex;
     align-content: center;
     flex-direction: column;
     justify-content: center;
-    padding-top: 25px;
-}
-
-.header h4 {
-    font-size: 20px;
-}
-
-.header h3 {
-    font-size: 20px;
 }

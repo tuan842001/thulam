@@ -53,6 +53,8 @@ export default function UserList() {
       style={{
         backgroundColor: "#202124",
         color: "#FFFF",
+
+        // width: "560px",
         borderRadius: "10px",
         padding: "10px",
       }}

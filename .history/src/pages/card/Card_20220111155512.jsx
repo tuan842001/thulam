@@ -16,35 +16,54 @@ function createData(order, name, goal) {
 }
 
 const rows = [
-  createData(1, "Kỳ 95", 24),
-  createData(2, "Hiếu 94", 22),
-  createData(3, "Thành 98", 18),
-  createData(4, "Hà 2k4", 15),
-  createData(5, "Cương 90", 14),
+  createData(1, "Tân 82", 2),
+  createData(2, "Đức 86", 2),
+  createData(3, "Hùng 88", 2),
+  createData(4, "Cường 99", 2),
+  createData(5, "Trường 2k4", 2),
+  createData(6, "Trung 83", 1),
+  createData(7, "Hào 83", 1),
+  createData(8, "Quý 84", 1),
+  createData(9, "Hiếu 84", 1),
+  createData(10, "Hưng 86", 1),
+  createData(11, "Nam 86", 1),
+  createData(12, "Minh 88", 1),
+  createData(13, "Hiếu 89", 1),
+  createData(14, "Hùng 89", 1),
+  createData(15, "Dũng 91", 1),
+  createData(16, "Dương 91", 1),
+  createData(17, "Tập 91", 1),
+  createData(18, "Hạnh 91", 1),
+  createData(19, "Hưng 93", 1),
+  createData(20, "Tuấn 93", 1),
+  createData(21, "Hùng 94", 1),
+  createData(22, "Giáp 94", 1),
+  createData(23, "Thái 94", 1),
+  createData(24, "Kỳ 95", 1),
+  createData(25, "Sơn 95", 1),
+  createData(26, "Thành 2k4", 1),
 ];
 
-export default function Statistical() {
+export default function Card() {
   return (
     <TableContainer
       component={Paper}
       style={{
         backgroundColor: "#202124",
         color: "#FFFF",
-        borderRadius: "10px",
-        padding: "10px",
-        marginTop: "20px",
+        margin: "20px",
+        width: "570px",
       }}
-      className="TableContainer"
     >
       <TableCell style={{ color: "#FFFF", borderBottom: "none" }} align="right">
-        Số bàn thắng
+        Thẻ vàng
       </TableCell>
-      <Table sx={{ minWidth: 500 }} size="small" aria-label="a dense table">
+      <Table sx={{ minWidth: 550 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell style={{ color: "#9aa0a6" }}>Cầu thủ</TableCell>
             <TableCell style={{ color: "#9aa0a6" }} align="right">
-              Số bàn thắng
+              Thẻ vàng
             </TableCell>
           </TableRow>
         </TableHead>
@@ -61,7 +80,7 @@ export default function Statistical() {
               >
                 <span
                   style={{
-                    color: "#FFFF",
+                    color: "#fff",
                     marginRight: "15px",
                     textAlign: "center",
                   }}

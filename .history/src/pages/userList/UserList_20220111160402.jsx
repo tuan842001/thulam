@@ -53,13 +53,14 @@ export default function UserList() {
       style={{
         backgroundColor: "#202124",
         color: "#FFFF",
+        margin: "20px",
+        width: "560px",
         borderRadius: "10px",
         padding: "10px",
       }}
-      className="TableContainer"
     >
       <Table
-        sx={{ minWidth: 600 }}
+        sx={{ minWidth: 500 }}
         size="small"
         aria-label="a dense table"
         className="TableSX"

@@ -15,12 +15,4 @@ body {
     justify-content: normal;
   }
 
-  .TableSX {
-    min-width: 500px !important;
-  }
-
-  .TableContainer {
-    width: 560px !important;
-    margin: 20px !important;
-  }
 }

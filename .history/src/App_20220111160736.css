@@ -16,11 +16,10 @@ body {
   }
 
   .TableSX {
-    min-width: 500px !important;
+    min-width: 500px;
   }
 
   .TableContainer {
-    width: 560px !important;
-    margin: 20px !important;
+    width: 560px;
   }
 }
