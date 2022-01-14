@@ -41,7 +41,10 @@ const rows = [
   createData(23, "Thái 94", 1),
   createData(24, "Kỳ 95", 1),
   createData(25, "Sơn 95", 1),
-  createData(26, "Thành 2k4", 1),
+
+createData(26, "Hoàn 95", 1),
+
+  createData(27, "Thành 2k4", 1),
 ];
 
 export default function Card() {
