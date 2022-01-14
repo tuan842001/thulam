@@ -16,7 +16,7 @@ function createData(order, name, goal) {
 }
 
 const rows = [
-  createData(1, "Kỳ 95", 24),
+  createData(1, "Kỳ 95", 25),
   createData(2, "Hiếu 94", 22),
   createData(3, "Thành 98", 18),
   createData(4, "Hà 2k4", 15),
